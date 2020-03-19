@@ -1,0 +1,66 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Bellota', cursive;
+	background: url(header.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+	font-size: 2rem;
+	color: #672708;
+	font-weight: 800;
+}
+p{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+hr{
+	border-color: #67270894;
+	border-width: 3px;
+	max-width: 75px;
+}
+.buffer{
+	height: 23px;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	background-color: #67270894;
+	border: none;
+}
+.btn:hover{
+	background-color: #672708ba;
+	padding: 1.2rem 2.2rem;
+}
+.btn:focus, .btn-primary:focus{
+	background-color: #672708ba !important;
+	box-shadow: none !important;
+}
+.btn:active, .btn-primary:active{
+	background-color: #672708ba !important;
+	border: none !important;
+	transform: scale(0.98);
+}
+.btn::before{
+	content: '';
+	width: 65px;
+	background-color: #67270894;
+	height: 3px;
+	display: block;
+	position: relative;
+	top: -35px;
+	margin: 0px auto;
+	transition: all 1s ease-out;
+}
+.btn:hover::before{
+	transform: scaleX(2);
+}
+
+
