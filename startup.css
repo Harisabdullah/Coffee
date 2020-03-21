@@ -53,6 +53,9 @@ i{
 	width: 100%;
 	justify-content: center;
 }
+.last-section{
+	padding-bottom: 0px;
+}
 .black-bg{
 	background-color: rgba(0,0,0, 0.6);
 	color: #fff;
@@ -85,13 +88,13 @@ i{
 	z-index: 0;
 }
 .social-icons{
-	margin: 15px 20px 0px 0px;
+	margin: 20px 0px 20px 0px;
 	position: relative;
 	top: 0;
 	right: 0;
 }
 .social-icons div{
-	margin: 20px 20px 5px 20px;
+	margin: 20px 10px 20px 10px;
 	text-align: center;
 }
 .social-icons i{
